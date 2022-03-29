@@ -49,6 +49,7 @@ public class ChallengeController {
 
                 openLocker += 1;
 
+        // pass to get the locker numbers that are open
         for(int h = 1; h <= 100; h++) {
 
             if(isOpen.get(h) == true)
